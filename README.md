@@ -18,3 +18,13 @@
 
     
 --------
+
+## Результаты
+
+|                 Model                 |    Log Loss  |
+|:-------------------------------------:|:------------:|
+|  AML Линейная модель + LightGBM       |    0.8488    |
+|  AML Линейная модель + CatBoost       |    0.8479    |
+|  AML BERT                             |    0.9347    |
+|  No_AML LogReg + Optuna               |    0.7833    |
+|  No_AML Transformers + Optuna         |    0.0000    |
