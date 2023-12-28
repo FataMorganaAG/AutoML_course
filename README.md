@@ -6,9 +6,9 @@
 
 Структура проекта
 ------------
-    ├── AutoML_data.ipynb         <- Ноутбук с работой с данными                  
+    ├── AutoML.ipynb              <- Ноутбук применением AutoML подходов (Линейная модель и LightGBM, Линейная модель и CatBoost, BERT)                  
     │   
-    ├── AutoML.ipynb              <- Ноутбук применением AutoML подходов (Линейная модель и LightGBM, Линейная модель и CatBoost, BERT)
+    ├── AutoML_data.ipynb         <- Ноутбук с работой с данными
     │
     ├── No_AutoML_1.ipynb         <- Ноутбук с решением без AutoML (LogReg Model + Optuna)
     │
