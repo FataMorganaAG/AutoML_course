@@ -21,9 +21,8 @@
 
 ## Результаты
 С LAMA: Линейная модель и LightGBM (pooled_bert), Линейная модель и CatBoost (Random LSTM), BERT.
-Собственные реализации: LogReg и ансамбль Transformers (distilbert и roberta)(*) для оптимизации в обоих случаях использовалась Optuna.
+Собственные реализации: LogReg и ансамбль Transformers (distilbert и roberta) для оптимизации в обоих случаях использовалась Optuna.
 
-(*) для экономии времени в ноутбуке для Transformers тренировочная и тестовая выборки были уменьшены до 6700 строк и 2300 строк соответственно.
 
 |                 Model                 |    Log Loss  |
 |:-------------------------------------:|:------------:|
@@ -31,4 +30,4 @@
 |  AML Линейная модель + CatBoost       |    0.8479    |
 |  **AML BERT**                         |  **0.9347**  |
 |  No_AML LogReg + Optuna               |    0.7833    |
-|  No_AML Transformers + Optuna         |    0.0000    |
+|  **No_AML Transformers + Optuna**     |  **0.9746**  |
